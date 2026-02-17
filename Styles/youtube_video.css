@@ -12,13 +12,19 @@
 }
 
 .thumbnail_row {
-  margin-bottom: 12px;
   position: relative;
 }
 
 .video_preview {
   vertical-align: top;
   display: inline-block;
+  transition: box-shadow 0.2s ease;
+}
+
+.video_preview:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(171, 171, 171, 0.2);
+  border-radius: 12px;
 }
 
 .video_profile_image {
@@ -28,8 +34,9 @@
 
 .video_about_grid {
   display: grid;
-  grid-template-columns: 50px 1fr;
-  column-gap: 10px;
+  grid-template-columns: 45px 1fr;
+  column-gap: 12px;
+  padding: 12px;
 }
 
 .video_title {
@@ -54,7 +61,7 @@
   bottom: 8px;
   right: 4px;
   background-color: rgb(27, 27, 27);
-  color:white;
+  color: white;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   padding: 2px 4px;

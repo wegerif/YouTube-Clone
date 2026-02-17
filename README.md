@@ -17,3 +17,4 @@ What I practiced:
 - Writing clean code
 
 The original course shows the page in the default light-mode. Personally I am a big fan of dark-mode, hence why I developed the project to use that, which helped me further understand what I'm doing.
+I also went out of my way to create something unique after following the basics.

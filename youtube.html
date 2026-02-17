@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="Styles/youtube_overlay.css" />
     </head>
 
-    <body class="main_color">
+    <body>
         <div class="overlay-background">
             <div class="overlay">
                 <p class="overlay_title">This is a YouTube clone made with HTML and CSS.</p>
@@ -50,17 +50,26 @@
                 <input type="text" class="search_bar" placeholder="Zoeken" />
                 <button class="search_button">
                     <img class="search_icon" src="Assets/Icons/search.svg" />
+                    <div class="tooltip">Search</div>
                 </button>
                 <button class="voice_search_button">
                     <img class="icon" src="Assets/Icons/voice-search-icon.svg" />
+                    <div class="tooltip">Search with your voice</div>
                 </button>
             </div>
             <div class="header_right_section">
-                <img class="icon" src="Assets/Icons/upload.svg" />
-                <img class="icon" src="Assets/Icons/youtube-apps.svg" />
-                <div class="notifications">
+                <div class="icon_position">
+                    <img class="icon" src="Assets/Icons/upload.svg" />
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="icon_position">
+                    <img class="icon" src="Assets/Icons/youtube-apps.svg" />
+                    <div class="tooltip">YouTube Apps</div>
+                </div>
+                <div class="icon_position notifications">
                     <img class="icon" src="Assets/Icons/notifications.svg" />
                     <div class="notifications_count">3</div>
+                    <div class="tooltip">Notifications (3)</div>
                 </div>
                 <img class="profile" src="Assets/Profiles/my-channel.jpeg" />
             </div>

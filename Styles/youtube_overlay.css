@@ -55,4 +55,9 @@
   margin-right: 15px;
   filter: invert(100%);
   cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.info_icon:hover {
+  filter: invert(80%);
 }
