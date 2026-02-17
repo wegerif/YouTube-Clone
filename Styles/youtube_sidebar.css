@@ -6,7 +6,35 @@
   left: 0;
   bottom: 0;
   background-color: #414141;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-right: rgb(37, 37, 37) solid 2px;
   z-index: 101;
+}
+
+.sidebar_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 80px;
+  flex-direction: column;
+}
+
+.sidebar_item:hover {
+  background-color: #525252;
+  cursor: pointer;
+}
+
+.sidebar_item img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+  filter: invert(100%);
+}
+
+.sidebar_item div {
+font-size: 10px;
 }

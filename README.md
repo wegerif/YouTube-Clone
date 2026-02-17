@@ -15,3 +15,5 @@ What I practiced:
 - Clean folder organization
 - Linking images, fonts and styles
 - Writing clean code
+
+The original course shows the page in the default light-mode. Personally I am a big fan of dark-mode, hence why I developed the project to use that, which helped me further understand what I'm doing.
