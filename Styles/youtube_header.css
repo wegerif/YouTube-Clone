@@ -13,6 +13,7 @@
   left: 0;
   right: 0;
   border-bottom: rgb(37, 37, 37) solid 2px;
+  z-index: 100;
 }
 
 .logo {
@@ -110,4 +111,16 @@
   width: 32px;
   height: auto;
   border-radius: 16px;
+}
+
+.notifications {
+  position: relative;
+}
+
+.notifications_count{
+  position:absolute;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 10px;
 }
