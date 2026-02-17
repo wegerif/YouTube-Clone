@@ -119,8 +119,17 @@
 
 .notifications_count{
   position:absolute;
+  top: -5px;
+  right: -6px;
   background-color: red;
   color: white;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  width: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
 }
