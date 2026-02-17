@@ -1,0 +1,29 @@
+{
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "semi": true,
+    "bracketSpacing": true,
+    "overrides": [
+        {
+            "files": "*.{css,scss}",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.{yml,yaml}",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "*.{mdx}",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

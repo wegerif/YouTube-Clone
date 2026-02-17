@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+    <head>
+        <title>YouTube Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="Styles/youtube_general.css" />
+        <link rel="stylesheet" href="Styles/youtube_header.css" />
+        <link rel="stylesheet" href="Styles/youtube_video.css" />
+        <link rel="stylesheet" href="Styles/youtube_sidebar.css" />
+        <link rel="stylesheet" href="Styles/youtube_overlay.css" />
+    </head>
+
+    <body class="main_color">
+        <div class="overlay-background">
+            <div class="overlay">
+
+                <p class="overlay_title">This is a YouTube clone made with HTML and CSS.</p>
+                <p class="overlay_text">It is built just to learn and understand HTML and CSS, and a tiny bit of JavaScript. <span style="text-decoration: underline;" onclick="window.open('https://www.wesselwegerif.nl', '_blank')">By Wessel.</span></p>
+                <button class="overlay_close_button" onclick="document.querySelector('.overlay-background').style.display='none'">Close</button>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header_left_section">
+                <img class="hamburger" src="Assets/Icons/hamburger-menu.svg" />
+                <img class="logo" src="Assets/Logo/youtube-logo.svg" />
+                <img class="info_icon" src="Assets/Icons/info-icon-svgrepo-com.svg" onclick="document.querySelector('.overlay-background').style.display='flex'"/>
+            </div>
+            <div class="header_middle_section">
+                <input type="text" class="search_bar" placeholder="Zoeken" />
+                <button class="search_button">
+                    <img class="search_icon" src="Assets/Icons/search.svg" />
+                </button>
+                <button class="voice_search_button">
+                    <img class="icon" src="Assets/Icons/voice-search-icon.svg" />
+                </button>
+            </div>
+            <div class="header_right_section">
+                <img class="icon" src="Assets/Icons/upload.svg" />
+                <img class="icon" src="Assets/Icons/youtube-apps.svg" />
+                <img class="icon" src="Assets/Icons/notifications.svg" />
+                <img class="profile" src="Assets/Profiles/my-channel.jpeg" />
+            </div>
+        </div>
+
+        <div class="sidebar"></div>
+
+        <div class="video_grid">
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
+                <div class="video_duration">12:34</div>
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">Marques Brownlee</p>
+                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Try Not To Laugh Challenge #9</p>
+                        <p class="video_author">Markiplier</p>
+                        <p class="video_stats">2M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="video_author">SSSniperWolf</p>
+                        <p class="video_stats">13 views &#183; 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            The Simplest Math Problem No One Can Solve - Collatz
+                        </p>
+                        <p class="video_author">Veritasium</p>
+                        <p class="video_stats">5M views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video_author">CS Dojo</p>
+                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="video_author">MrBeast</p>
+                        <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">Marques Brownlee</p>
+                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Try Not To Laugh Challenge #9</p>
+                        <p class="video_author">Markiplier</p>
+                        <p class="video_stats">2M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="video_author">SSSniperWolf</p>
+                        <p class="video_stats">13 views &#183; 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            The Simplest Math Problem No One Can Solve - Collatz
+                        </p>
+                        <p class="video_author">Veritasium</p>
+                        <p class="video_stats">5M views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video_author">CS Dojo</p>
+                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="video_author">MrBeast</p>
+                        <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">Marques Brownlee</p>
+                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Try Not To Laugh Challenge #9</p>
+                        <p class="video_author">Markiplier</p>
+                        <p class="video_stats">2M views &#183; 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                        <p class="video_author">SSSniperWolf</p>
+                        <p class="video_stats">13 views &#183; 2 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            The Simplest Math Problem No One Can Solve - Collatz
+                        </p>
+                        <p class="video_author">Veritasium</p>
+                        <p class="video_stats">5M views &#183; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="video_author">CS Dojo</p>
+                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video_preview">
+                <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
+                <div class="video_about_grid">
+                    <div>
+                        <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
+                    </div>
+                    <div>
+                        <p class="video_title">Anything You Can Fit In The Circle I’ll Pay For</p>
+                        <p class="video_author">MrBeast</p>
+                        <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

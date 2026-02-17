@@ -1,0 +1,19 @@
+.main_color {
+  background-color: #303030;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding-top: 90px;
+  padding-left: 120px;
+  padding-right: 25px;
+}
