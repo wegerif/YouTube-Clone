@@ -9,7 +9,11 @@
   border: white solid 1px;
   border-radius: 4px;
   width: 100%;
+}
+
+.thumbnail_row {
   margin-bottom: 12px;
+  position: relative;
 }
 
 .video_preview {
@@ -47,8 +51,8 @@
 
 .video_duration {
   position: absolute;
-  bottom: 5px;
-  right: 5px;
+  bottom: 8px;
+  right: 4px;
   background-color: rgb(27, 27, 27);
   color:white;
   font-size: 12px;
