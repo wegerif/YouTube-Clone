@@ -1,5 +1,4 @@
 p {
-  font-family: Roboto;
   font-size: 12px;
   text-align: left;
   margin-top: 0px;
@@ -13,4 +12,11 @@ body {
   padding-left: 123px;
   padding-right: 25px;
   background-color: #303030;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1250px) {
+  body {
+    padding-left: 230px;
+  }
 }

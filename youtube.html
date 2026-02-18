@@ -36,10 +36,10 @@
                 </button>
             </div>
         </div>
-        <div class="header">
+        <header class="header">
             <div class="header_left_section">
                 <img class="hamburger" src="Assets/Icons/hamburger-menu.svg" />
-                <img class="logo" src="Assets/Logo/youtube-logo.svg" />
+                <img class="logo" src="Assets/Logo/wesseltube-logo.png" />
                 <img
                     class="info_icon"
                     src="Assets/Icons/info-icon-svgrepo-com.svg"
@@ -71,10 +71,17 @@
                     <div class="notifications_count">3</div>
                     <div class="tooltip">Notifications (3)</div>
                 </div>
-                <img class="profile" src="Assets/Profiles/my-channel.jpeg" />
+                <div class="icon_position">
+                    <img
+                        class="profile"
+                        src="Assets/Profiles/my-channel.jpeg"
+                        onclick="window.open('https://www.youtube.com/@WGRF', '_blank')"
+                    />
+                    <div class="tooltip">Wessels Channel</div>
+                </div>
             </div>
-        </div>
-        <div class="sidebar">
+        </header>
+        <nav class="sidebar">
             <div class="sidebar_item">
                 <img src="Assets/Icons/home.svg" />
                 <div>Home</div>
@@ -99,320 +106,293 @@
                 <img src="Assets/Icons/library.svg" />
                 <div>Library</div>
             </div>
-        </div>
+        </nav>
+        <main>
+            <section class="video_grid">
+                <div class="video_preview">
+                    <div class="thumbnail_row">
+                        <a href="https://www.youtube.com/watch?v=-rXibqSBilU" target="_blank">
+                            <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-0.jpg" />
+                            <div class="video_duration">14:26</div>
+                        </a>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <a href="https://www.youtube.com/@WGRF" target="_blank">
+                                <img
+                                    class="video_profile_image"
+                                    src="Assets/Profiles/my-channel.jpeg"
+                                />
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                href="https://www.youtube.com/watch?v=-rXibqSBilU"
+                                target="_blank"
+                                style="text-decoration: none; color: inherit"
+                            >
+                                <p class="video_title">Te vroeg gePEAKt - met Matthias en Joel</p>
+                                <p class="video_author">Wessel Wegerif</p>
+                                <p class="video_stats">57 views &#183; 6 months ago</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=n2RNcPRtAiY', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
+                        <div class="video_duration">12:34</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                Talking Tech and AI with Google CEO Sundar Pichai!
+                            </p>
+                            <p class="video_author">Marques Brownlee</p>
+                            <p class="video_stats">3.4M views &#183; 6 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=mP0RAo9SKZk', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
+                        <div class="video_duration">08:21</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">Try Not To Laugh Challenge #9</p>
+                            <p class="video_author">Markiplier</p>
+                            <p class="video_stats">2M views &#183; 3 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=FgjPQQeTh1w', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
+                        <div class="video_duration">00:47</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
+                            <p class="video_author">SSSniperWolf</p>
+                            <p class="video_stats">13 views &#183; 2 weeks ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=094y1Z2wpJg', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
+                        <div class="video_duration">23:15</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                The Simplest Math Problem No One Can Solve - Collatz
+                            </p>
+                            <p class="video_author">Veritasium</p>
+                            <p class="video_stats">5M views &#183; 2 months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=86CQq3pKSUw', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
+                        <div class="video_duration">55:00</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                Kadane's Algorithm to Maximum Sum Subarray Problem
+                            </p>
+                            <p class="video_author">CS Dojo</p>
+                            <p class="video_stats">7.6M views &#183; 11 months ago</p>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="video_grid">
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
-                    <div class="video_duration">12:34</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=yXWw0_UfSFg', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
+                        <div class="video_duration">14:02</div>
                     </div>
-                    <div>
-                        <p class="video_title">
-                            Talking Tech and AI with Google CEO Sundar Pichai!
-                        </p>
-                        <p class="video_author">Marques Brownlee</p>
-                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
-                    <div class="video_duration">08:21</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Try Not To Laugh Challenge #9</p>
-                        <p class="video_author">Markiplier</p>
-                        <p class="video_stats">2M views &#183; 3 days ago</p>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                Anything You Can Fit In The Circle I’ll Pay For
+                            </p>
+                            <p class="video_author">MrBeast</p>
+                            <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
-                    <div class="video_duration">00:47</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
-                        <p class="video_author">SSSniperWolf</p>
-                        <p class="video_stats">13 views &#183; 2 weeks ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
-                    <div class="video_duration">23:15</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            The Simplest Math Problem No One Can Solve - Collatz
-                        </p>
-                        <p class="video_author">Veritasium</p>
-                        <p class="video_stats">5M views &#183; 2 months ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
-                    <div class="video_duration">55:00</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            Kadane's Algorithm to Maximum Sum Subarray Problem
-                        </p>
-                        <p class="video_author">CS Dojo</p>
-                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
-                    <div class="video_duration">14:02</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=fNVa1qMbF9Y', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-7.webp" />
+                        <div class="video_duration">03:58</div>
                     </div>
-                    <div>
-                        <p class="video_title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                        <p class="video_author">MrBeast</p>
-                        <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-7.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">Why Planes Don't Fly Over Tibet</p>
+                            <p class="video_author">RealLifeLore</p>
+                            <p class="video_stats">6.6M views &#183; 1 year ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=lFm4EM1juls', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-8.webp" />
+                        <div class="video_duration">00:30</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-8.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">Inside The World's Biggest Passenger Plane</p>
+                            <p class="video_author">Tech Vision</p>
+                            <p class="video_stats">512k views &#183; 3 days ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=ixmxOlcrlUc', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-9.webp" />
+                        <div class="video_duration">37:44</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img class="video_profile_image" src="Assets/Profiles/channel-9.jpeg" />
+                        </div>
+                        <div>
+                            <p class="video_title">The SECRET to Super Human STRENGTH</p>
+                            <p class="video_author">ThenX</p>
+                            <p class="video_stats">20M views &#183; 3 years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=R2vXbFp5C9o', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-10.webp" />
+                        <div class="video_duration">19:09</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img
+                                class="video_profile_image"
+                                src="Assets/Profiles/channel-10.jpeg"
+                            />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                            </p>
+                            <p class="video_author">Business Insider</p>
+                            <p class="video_stats">14M views &#183; 1 year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=0nZuYyXET3s', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-11.webp" />
+                        <div class="video_duration">41:22</div>
+                    </div>
+                    <div class="video_about_grid">
+                        <div>
+                            <img
+                                class="video_profile_image"
+                                src="Assets/Profiles/channel-11.jpeg"
+                            />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                            </p>
+                            <p class="video_author">Destination Tips</p>
+                            <p class="video_stats">7.6M views &#183; 11 months ago</p>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-7.webp" />
-                    <div class="video_duration">03:58</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-7.jpeg" />
+                <div
+                    class="video_preview"
+                    onclick="window.open('https://www.youtube.com/watch?v=9iMGFqMmUFs', '_blank')"
+                >
+                    <div class="thumbnail_row">
+                        <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-12.webp" />
+                        <div class="video_duration">27:51</div>
                     </div>
-                    <div>
-                        <p class="video_title">Why Planes Don't Fly Over Tibet</p>
-                        <p class="video_author">RealLifeLore</p>
-                        <p class="video_stats">6.6M views &#183; 1 year ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-8.webp" />
-                    <div class="video_duration">00:30</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-8.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Inside The World's Biggest Passenger Plane</p>
-                        <p class="video_author">Tech Vision</p>
-                        <p class="video_stats">512k views &#183; 3 days ago</p>
+                    <div class="video_about_grid">
+                        <div>
+                            <img
+                                class="video_profile_image"
+                                src="Assets/Profiles/channel-12.jpeg"
+                            />
+                        </div>
+                        <div>
+                            <p class="video_title">
+                                What would happen if you didn’t drink water? - Mia Nacamulli
+                            </p>
+                            <p class="video_author">TedEd</p>
+                            <p class="video_stats">1.4M views &#183; 4 months ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-9.webp" />
-                    <div class="video_duration">37:44</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-9.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">The SECRET to Super Human STRENGTH</p>
-                        <p class="video_author">ThenX</p>
-                        <p class="video_stats">20M views &#183; 3 years ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-10.webp" />
-                    <div class="video_duration">19:09</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-10.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
-                        </p>
-                        <p class="video_author">Business Insider</p>
-                        <p class="video_stats">14M views &#183; 1 year ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-11.webp" />
-                    <div class="video_duration">41:22</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-11.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
-                        </p>
-                        <p class="video_author">Destination Tips</p>
-                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-12.webp" />
-                    <div class="video_duration">27:51</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-12.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            What would happen if you didn’t drink water? - Mia Nacamulli
-                        </p>
-                        <p class="video_author">TedEd</p>
-                        <p class="video_stats">1.4M views &#183; 4 months ago</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-1.webp" />
-                    <div class="video_duration">06:12</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-1.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            Talking Tech and AI with Google CEO Sundar Pichai!
-                        </p>
-                        <p class="video_author">Marques Brownlee</p>
-                        <p class="video_stats">3.4M views &#183; 6 months ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-2.webp" />
-                    <div class="video_duration">49:37</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-2.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Try Not To Laugh Challenge #9</p>
-                        <p class="video_author">Markiplier</p>
-                        <p class="video_stats">2M views &#183; 3 days ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-3.webp" />
-                    <div class="video_duration">11:05</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-3.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Crazy Tik Toks Taken Moments Before DISASTER</p>
-                        <p class="video_author">SSSniperWolf</p>
-                        <p class="video_stats">13 views &#183; 2 weeks ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-4.webp" />
-                    <div class="video_duration">32:18</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-4.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            The Simplest Math Problem No One Can Solve - Collatz
-                        </p>
-                        <p class="video_author">Veritasium</p>
-                        <p class="video_stats">5M views &#183; 2 months ago</p>
-                    </div>
-                </div>
-            </div>
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-5.webp" />
-                    <div class="video_duration">25:49</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-5.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">
-                            Kadane's Algorithm to Maximum Sum Subarray Problem
-                        </p>
-                        <p class="video_author">CS Dojo</p>
-                        <p class="video_stats">7.6M views &#183; 11 months ago</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="video_preview">
-                <div class="thumbnail_row">
-                    <img class="thumbnail_image" src="Assets/Thumbnails/thumbnail-6.webp" />
-                    <div class="video_duration">17:28</div>
-                </div>
-                <div class="video_about_grid">
-                    <div>
-                        <img class="video_profile_image" src="Assets/Profiles/channel-6.jpeg" />
-                    </div>
-                    <div>
-                        <p class="video_title">Anything You Can Fit In The Circle I’ll Pay For</p>
-                        <p class="video_author">MrBeast</p>
-                        <p class="video_stats">112.4M views &#183; 4 weeks ago</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </section>
+        </main>
     </body>
 </html>

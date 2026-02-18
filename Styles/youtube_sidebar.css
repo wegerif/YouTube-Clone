@@ -17,7 +17,6 @@
   align-items: center;
   padding: 10px 0;
   color: white;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   height: 80px;
   flex-direction: column;
@@ -37,5 +36,26 @@
 }
 
 .sidebar_item div {
-font-size: 10px;
+  font-size: 10px;
+}
+
+@media (min-width: 1250px) {
+  .sidebar {
+    width: 200px;
+  }
+  .sidebar_item {
+    flex-direction: row;
+    font-size: 18px;
+    justify-content: left;
+    height: 50px;
+  }
+
+  .sidebar_item img {
+    margin-left: 20px;
+    margin-right: 12px;
+  }
+  .sidebar_item div {
+    margin-top: -5px;
+    font-size: 14px;
+  }
 }

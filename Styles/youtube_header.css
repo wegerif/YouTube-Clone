@@ -19,11 +19,10 @@
 .logo {
   width: auto;
   height: 24px;
-  filter: invert(100%);
 }
 
 .header_left_section {
-  width: 200px;
+  width: 250px;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -46,14 +45,12 @@
   color: white;
   width: 20px;
   vertical-align: middle;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   padding-left: 10px;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .search_bar::placeholder {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
@@ -78,7 +75,6 @@
   color: white;
   padding: 4px 8px;
   border-radius: 2px;
-  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   opacity: 0;
   transition: all 0.2s ease;
@@ -94,8 +90,8 @@
   .tooltip {
     opacity: 1;
     top: 120%;
-      margin-top: 5px;
-  margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
@@ -118,10 +114,10 @@
 .voice_search_button:hover {
   background: #616161;
   cursor: pointer;
-    .tooltip {
+  .tooltip {
     opacity: 1;
-      margin-top: 5px;
-  margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 }
 
@@ -142,8 +138,9 @@
 }
 
 .hamburger {
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 28px;
+  margin-left: 33px;
+  margin-right: 34px;
 }
 
 .search_icon {
@@ -154,12 +151,15 @@
   filter: invert(100%);
 }
 
-
 .profile {
   width: 32px;
   height: auto;
   border-radius: 16px;
-  margin-left: 20px ;
+  margin-left: 20px;
+}
+
+.profile:hover {
+  cursor: pointer;
 }
 
 .notifications {
@@ -170,8 +170,8 @@
   margin: 0 8px;
 }
 
-.notifications_count{
-  position:absolute;
+.notifications_count {
+  position: absolute;
   top: -5px;
   right: -6px;
   background-color: red;
@@ -179,7 +179,6 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  font-family: 'Roboto', sans-serif;
   font-size: 10px;
   display: flex;
   align-items: center;
@@ -194,7 +193,8 @@
   margin: 0 8px;
 }
 
-.icon_position:hover .tooltip, .notifications:hover .tooltip {
+.icon_position:hover .tooltip,
+.notifications:hover .tooltip {
   opacity: 1;
   bottom: -35px;
 }
